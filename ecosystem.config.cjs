@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "brl-sync",
-      cwd: "/opt/brl",
+      cwd: "/root/brl",
       script: "sync-hubspot.js",
       interpreter: "node",
       node_args: "--env-file=.env",

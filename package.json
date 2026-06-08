@@ -2,7 +2,7 @@
   "name": "brl",
   "private": true,
   "scripts": {
-    "install-chrome": "npx --yes @puppeteer/browsers install chrome@stable",
+    "install-chrome": "npx --yes @puppeteer/browsers install chrome@stable --path ./chrome",
     "sync": "node --env-file=.env sync-hubspot.js",
     "sync:local": "node --env-file=.env.local sync-hubspot.js",
     "scrape": "node index.js"

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 apt-get update
-apt-get install -y git ca-certificates curl
+apt-get install -y git ca-certificates curl unzip tar
 
 if ! command -v node >/dev/null; then
   curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
